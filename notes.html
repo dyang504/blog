@@ -1,0 +1,16 @@
+---
+layout: page
+title: 读书笔记
+---
+
+{% include JB/setup %}
+   
+<ul>
+	{% for review in site.categories.review %}
+		<li>
+			<a href="{{site.BAASE_PATH}}{{review.url}}">{{review.title}}</a>
+			<p>{{review.time}}</p>
+
+		</li>
+	{% endfor %}
+</ul>

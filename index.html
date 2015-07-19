@@ -1,0 +1,16 @@
+---
+layout: page
+title: 欢迎
+tagline: Supporting tagline
+---
+{% include JB/setup %}
+
+<ul>
+	{% for post in site.posts %}
+	<li>
+		<a href="{{site.BASE_PATH}}{{post.url}}">{{post.title}}</a>
+		<p>{{post.time}}</p>
+		<p>{{post.meta}}</p>
+	</li>
+	{% endfor %}
+</ul>
