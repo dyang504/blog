@@ -3,7 +3,7 @@ layout: post
 category : mix
 tagline: "Supporting tagline"
 tags : [intro, beginner, jekyll, tutorial]
-date: 2011-12-29
+time: 2011-12-29
 ---
 {% include JB/setup %}
 
