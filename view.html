@@ -1,0 +1,15 @@
+---
+layout: page
+title: 所想索录
+---
+
+{% include JB/setup %}
+
+<ul>
+	{% for mix in site.categories.mix %}
+	<li>
+		<a href="{{BASE_PATH}}{{mix.url}}">{{mix.title}}</a>
+		<p>{{mix.meta}}</p>
+	</li>
+	{% endfor %}
+</ul>

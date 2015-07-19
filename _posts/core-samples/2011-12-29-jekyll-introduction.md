@@ -1,8 +1,9 @@
 ---
 layout: post
-category : lessons
+category : mix
 tagline: "Supporting tagline"
 tags : [intro, beginner, jekyll, tutorial]
+date: 2011-12-29
 ---
 {% include JB/setup %}
 
