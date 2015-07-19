@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>{{ page.title }}</title>
 	<meta name="author" content="{{ site.author.name }}">
-	<link href='{{ ASSET_PATH }}/css/style.css' rel="stylesheet" media="all">
+	<link href='{{site.baseurl}}/css/style.css' rel="stylesheet" media="all">
 	<link href="http://feeds.feedburner.com/{{ site.author.feedbaname }}" rel="alternate" title="{{ page.title }}" type="application/atom+xml">
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
 </head>
@@ -21,9 +21,9 @@
 				<p class="logo"><a href="{{ HOME_PATH }}">{{ site.title }}</a></p>
 				<nav class="nav-global">
 					<ul>
-						<li class=><a href="{{site.BASE_PATH}}/notes.html">读书笔记</a></li>
-						<li class="archive"><a href="/archive.html">存档</a></li>
-						<li class="page"><a href="/pages.html">所有页面</a></li>
+						<li class=><a href="{{site.baseurl}}/notes.html">读书笔记</a></li>
+						<li class="archive"><a href="{{site.baseurl}}/archive.html">存档</a></li>
+						<li class="page"><a href="/{{site.baseurl}}pages.html">所有页面</a></li>
 						<li class="category"><a href="/categories.html">博文分类</a></li>
 						<li class="tag"><a href="/tags.html">标签</a></li>
 						<li class="forkme"><iframe src="http://markdotto.github.com/github-buttons/github-btn.html?user=plusjade&repo=jekyll-bootstrap&type=fork&count=true"
