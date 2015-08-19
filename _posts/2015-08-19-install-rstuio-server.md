@@ -1,5 +1,5 @@
 ---
-layout:page
+layout: post
 title:安装Rstudio Server小记
 ---
 
