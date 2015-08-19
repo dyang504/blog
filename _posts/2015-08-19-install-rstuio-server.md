@@ -1,7 +1,8 @@
 ---
 layout: post
-title:安装Rstudio Server小记
+title: 安装Rstudio Server小记
 ---
+
 
 
  + 安装R语言  
