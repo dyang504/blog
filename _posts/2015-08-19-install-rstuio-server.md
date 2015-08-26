@@ -1,6 +1,9 @@
 ---
 layout: post
 title: 安装Rstudio Server小记
+time: 2015-08-12
+tags: [Software]
+meta: 有一台VPS，想着怎么利用限制资源来，于是想到了安装一个Rstudio server。安装在VPS上的优点不少，比如不用考虑rstudio运行的时候的翻墙问题。这一点在抓取推特数据进行分析的时候尤为有用。其次，24小时运行，并且可以通过iPad乃至任何一台笔记本访问。有一点需要注意的是，Rstudio Server占用内存资源较大，512M内存只能勉强运行。
 ---
 
 
